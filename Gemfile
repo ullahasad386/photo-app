@@ -28,6 +28,11 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'dotenv-rails'
 gem 'font-awesome-rails'
+gem 'stripe'
+
+group :production do
+  gem 'pg'
+end
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
